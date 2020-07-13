@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
     <head>
         <title>Home</title>
         <link rel = "stylesheet" href = "styles.css">
@@ -27,15 +27,15 @@
                     <p>This website enables interested people to view our resume and achievements</p>
                     <h2>Expertise</h2>
                     <div class="expertise">
-                        <img src="expertise1.jpg">
-                        <p><b>Develop Website</p></b>
+                        <img src="expertise1.jpg" alt="expertise1">
+                        <p><b>Develop Website</b></p>
                         <small>
                             We'll develop a website for you upon your request.
                         </small>
                     </div>
                     <div class="expertise">
-                        <img src="expertise2.jpg">
-                        <p><b>Web Designing</p></b>
+                        <img src="expertise2.jpg" alt="expertise2">
+                        <p><b>Web Designing</b></p>
                         <small>
                             Web Designing and Graphic Designing for your website. To enhance the quality of the web
                         </small>
@@ -45,11 +45,11 @@
                 <div class="card">
                 <h2>My Projects</h2>
                       <div class="project">
-                          <img src="create.jpg">
-                          <img src="makeweb.jpg">
-                          <img src="Java.jpg">
-                          <img src="design.jpg">
-                          <img src="websit.jpg">
+                          <img src="create.jpg" alt="create">
+                          <img src="makeweb.jpg" alt="makeweb">
+                          <img src="Java.jpg" alt="Java">
+                          <img src="design.jpg" alt="design">
+                          <img src="websit.jpg" alt="websit">
                       </div>  
                 </div>
             </div>
@@ -67,11 +67,9 @@
                         <li>
                             Gan Yit Wai, B1901220, B1901220@helplive.edu.my
                         </li>
-                        <br>
                         <li>
                             Fong Geor Jan, B1900671, B1900671@helplive.edu.my
                         </li>
-                        <br>
                         <li>
                             Jonathan Ho Phang Jiun, B1202235, B1202235@helplive.edu.my
                         </li>
@@ -95,14 +93,19 @@
                             <input type="email" placeholder="Email">
                         </div>
                         <div class="text-area">
-                            <textarea row="4" placeholder="Your Message"></textarea>
+                            <textarea rows="4" placeholder="Your Message"></textarea>
                         </div>
                         <button type="submit" class="submit-btn">Send Message</button>
                     </form>
                     </div>
+                    <button type="button"
+                    onclick="document.getElementById('demo').innerHTML = Date()">
+                    Click me to display Date and Time.</button>
+                    
+                    <p id="demo"></p>
             </div>
         </div>
-        
+
 
         </div>
     </body>
